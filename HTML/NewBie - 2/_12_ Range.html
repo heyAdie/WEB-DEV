@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" checked>  <!--"checked" if you want (tick already)-->
+        <label for="age">I am 18+</label>
+        
+    <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">mango</label>
+
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">banana</label>
+    </div>
+    <br>
+    <div>
+        Choose yopur subjects:
+        <input type="checkbox" id="math" name="subjects" value="math"> 
+        <label for="math">math</label>
+
+        <input type="checkbox" id="science" name="subjects" value="sci" >  
+        <label for="science">science</label>
+
+        <input type="checkbox" id="hindi" name="subjects" value="hin">  
+        <label for="hindi">hindi</label>
+    </div>
+    <br>
+    <div>
+        Choose your profession:
+        <select name="profession" id="profession">
+            <option>select your option</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+    </div>
+    <label for="vol">select your volume level :</label>
+    <input 
+    type="range"
+     id = " vol" 
+     min="0" max="100" 
+     name="vol" 
+     step="10"
+     value="50">
+    <button>submit</button>
+    </form>
+</body>
+</html>
