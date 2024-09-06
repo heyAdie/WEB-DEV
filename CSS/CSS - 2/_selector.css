@@ -1,0 +1,27 @@
+*{
+    font-size: serif;
+    background-color: rgb(255, 255, 255);
+}
+
+h1, h3{
+    color: rgb(2, 145, 216);
+    
+}
+
+#login, #signup{
+    background-color: #9e41f5;
+    color: white;
+
+}
+.post {
+    color: rgb(255, 0, 170);
+}
+.upvote{
+    background-color: #88f3bd;
+    color: #f80707;
+}
+
+p a {
+    color: #5d0707;
+    background-color: rgb(170, 255, 0);
+}
