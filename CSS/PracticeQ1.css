@@ -1,0 +1,76 @@
+* {
+    font-family: 'Courier New';
+    
+}
+
+h1{
+    color: rgb(0, 76, 199) !important ;  /* !important */
+
+}
+
+h1{
+    color: rgb(8, 225, 26) ;
+
+}
+
+#login , #register {
+
+    background-color: aqua;
+}
+
+#searchbtn {
+
+    background-color: black;
+    color: white;
+}
+
+.userbtn {
+
+    background-color: aqua;
+}
+ 
+
+/* Practice Question 2 */
+/* Practice Question 2 */
+
+h2 {
+    color: rgb(250, 145, 162);
+}
+
+#greet {
+    color: yellow;
+}
+
+.myClass {
+    color:brown
+}
+
+/* Practice Question 3 */
+/* Practice Question 3 */
+
+div p {
+    background-color: black;
+}
+
+.para {
+    background-color: rgb(163, 163, 234);
+}
+
+p {
+    background-color: green;
+}
+
+/* Practice Question 4 */
+/* Practice Question 4 */
+
+div.greetDiv .greet {
+    color: lightgreen;
+}
+
+.greetDiv p.greet {
+    color: lightskyblue;
+}
+
+.greetDiv .greeet {
+    color: rgb(248, 165, 87);
+}
