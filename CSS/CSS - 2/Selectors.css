@@ -1,0 +1,176 @@
+* {
+    font-family: cursive;      /*  Universal selector  */
+    background-color: #ffffff;
+}
+
+h3 {
+    color: rgb(164, 7, 164);    /* Element Selector */
+
+}
+
+h1 {                              /* Element Selector */
+    color: #b92b27;
+
+}
+
+#login {                             /* ID Selector */
+    background-color: white;
+
+}
+                                   
+#signup {                             /* ID Selector */
+    background-color: skyblue;
+    color: white;
+}
+
+.upvote {
+    
+    background-color: lightgreen;
+}
+
+/* Descentant Selector*/
+/* Descentant Selector*/
+
+
+.post a {
+
+    color: #2807bb;
+    background-color: rgb(169, 226, 247);
+}
+
+nav ul li a {
+
+    color : palevioletred    
+}   
+
+/* Combinators */
+/* Combinators */
+
+p + h3 {
+
+     text-decoration: underline;
+
+}
+
+.upvote + button {
+    background-color: #ecff83;
+}
+
+
+/* Child Combinators */
+/* Child Combinators */
+
+div > input {
+
+    background-color: rgb(66, 160, 129) ;
+    
+}
+
+/* Attribute Selector */
+/* Attribute Selector */
+
+input[type="text"] {
+    color : yellow
+}
+
+input[type="password"] {
+    color : rgb(255, 5, 5)
+}
+
+ /*Practice Question*/
+ /*Practice Question*/
+
+#myId {
+    color: green;
+}
+
+div[id="myId2"] 
+    p {
+        color: #2807bb;
+
+}
+
+                        /* Pseudo Class */
+                        /* Pseudo Class */
+
+/* :hover */
+/* :hover */
+
+button:hover {
+    background-color: black;
+    color: white;
+}                                         
+
+h3:hover {
+    text-decoration: none;
+}
+
+/* :active */
+/* :active */
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: lightgreen;
+}
+
+/* :checked*/
+/* :checked*/
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* :nth-of-type()*/
+/* :nth-of-type()*/
+
+.post:nth-of-type(1) {
+    background-color: rgb(169, 221, 255);
+}
+
+div:nth-of-type(2n) {
+    background-color: rgb(255, 223, 199);
+}
+
+
+                            /* Pseudo Element */
+                            /* Pseudo Element */
+
+ /* ::First letter */                          
+ /* ::First letter  */
+
+h1::first-letter {
+    color: lightgreen;
+}
+
+/* ::first-line */
+/* ::first-line */
+
+p::first-line {
+    color: none;
+}
+
+/* ::selection */
+/* ::selection */
+
+p::selection {
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
