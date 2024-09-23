@@ -1,0 +1,10 @@
+div {
+    width: 400px;
+    height: 175px;
+    background-color: rgb(62, 149, 255);
+    margin: 10px auto;
+    background-image: url("vengeance.jpg");
+    background-size: cover;
+    color: rgb(255, 64, 64);
+    text-shadow: 2px 2px 10px #f0bd9e;
+}
