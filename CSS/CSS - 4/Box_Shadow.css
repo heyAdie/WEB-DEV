@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height : 50px;
+    text-align: center;
+    background-color:  rgb(103, 168, 252);
+    border: 2px solid black;
+    margin: 20px auto;
+    box-shadow: 5px 5px 20px rgb(21, 243, 106);
+}
