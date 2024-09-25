@@ -1,0 +1,48 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+/* Position Static */ 
+/* Position Static */
+
+#static {
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    right: 100px;
+}
+
+/* Position Relative */
+/* Position Relative */
+
+#relative {
+    background-color: skyblue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/* Position Absolute */
+/* Position Absolute */
+
+#absolute {
+    background-color: rgb(255, 77, 243);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+/* Position Fixed */
+/* Position Fixed */
+
+#fixed {
+    background-color: rgb(253, 141, 60);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
