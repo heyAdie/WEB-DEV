@@ -1,0 +1,18 @@
+div {
+    height: 200px;
+    width : 200px;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    transition: 1s;
+    margin: 0 auto;
+     transition-delay: 0.2s;        /* Transition Shorthand */
+                                  /* Transition Shorthand */
+}
+
+div:hover {
+    background-color: black;
+    border-radius: 20%;
+}
+
+
+
