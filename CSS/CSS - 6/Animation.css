@@ -1,0 +1,45 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(87, 152, 249);
+
+    animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    animation: widthAnimate 3s ease-in 0s infinite alternate-reverse ;
+    /*  ANIMATION - SHORTHAND */
+}
+
+
+@keyframes widthAnimate {
+    from {
+        width: 50px;
+        background-color: lightgreen;
+    }
+    to {
+        width: 400px;
+        border-radius: 50px;
+    }
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: lightgreen;
+    }
+    to {
+        background-color: skyblue;
+    }
+}
